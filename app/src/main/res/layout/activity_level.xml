@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.softhans.PhotogenicTilePuzzle.LevelActivity">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/level01"
+                android:backgroundTint="@color/colorPrimary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+            <ImageButton
+                android:id="@+id/lock2"
+                android:backgroundTint="@color/colorPrimary"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                app:srcCompat="@android:drawable/ic_lock_lock" />
+
+            <ImageButton
+                android:id="@+id/lock3"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:backgroundTint="@color/colorPrimary"
+                app:srcCompat="@android:drawable/ic_lock_lock" />
+
+            <ImageButton
+                android:id="@+id/lock4"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:backgroundTint="@color/colorPrimary"
+                app:srcCompat="@android:drawable/ic_lock_lock" />
+
+ <!--            <ImageButton-->
+<!--                android:id="@+id/level02"-->
+<!--                 android:backgroundTint="@color/colorPrimary"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                app:srcCompat="@mipmap/ic_launcher" />-->
+
+<!--            <ImageButton-->
+<!--                android:id="@+id/level03"-->
+<!--                 android:backgroundTint="@color/colorPrimary"-->
+ <!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                app:srcCompat="@mipmap/ic_launcher" />-->
+
+<!--            <ImageButton-->
+<!--                android:id="@+id/level04"-->
+<!--                 android:backgroundTint="@color/colorPrimary"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                app:srcCompat="@mipmap/ic_launcher" />-->
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+<!--            <ImageButton-->
+<!--                android:id="@+id/level05"-->
+  <!--                 android:backgroundTint="@color/colorPrimary"-->
+ <!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                app:srcCompat="@mipmap/ic_launcher" />-->
+
+<!--            <ImageButton-->
+<!--                android:id="@+id/level06"-->
+            <!--                 android:backgroundTint="@color/colorPrimary"-->
+
+            <!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                app:srcCompat="@mipmap/ic_launcher" />-->
+
+<!--            <ImageButton-->
+<!--                android:id="@+id/level07"-->
+            <!--                 android:backgroundTint="@color/colorPrimary"-->
+
+            <!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                app:srcCompat="@mipmap/ic_launcher" />-->
+
+<!--            <ImageButton-->
+<!--                android:id="@+id/level08"-->
+            <!--                 android:backgroundTint="@color/colorPrimary"-->
+
+            <!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                app:srcCompat="@mipmap/ic_launcher" />-->
+            <ImageButton
+                android:id="@+id/lock5"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:backgroundTint="@color/colorPrimary"
+                app:srcCompat="@android:drawable/ic_lock_lock" />
+
+            <ImageButton
+                android:id="@+id/lock6"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:backgroundTint="@color/colorPrimary"
+                app:srcCompat="@android:drawable/ic_lock_lock" />
+
+            <ImageButton
+                android:id="@+id/lock7"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:backgroundTint="@color/colorPrimary"
+                app:srcCompat="@android:drawable/ic_lock_lock" />
+
+            <ImageButton
+                android:id="@+id/lock8"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:backgroundTint="@color/colorPrimary"
+                app:srcCompat="@android:drawable/ic_lock_lock" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+<!--            <ImageButton-->
+<!--                android:id="@+id/level09"-->
+            <!--                 android:backgroundTint="@color/colorPrimary"-->
+
+            <!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                app:srcCompat="@mipmap/ic_launcher" />-->
+
+<!--            <ImageButton-->
+<!--                android:id="@+id/level10"-->
+            <!--                 android:backgroundTint="@color/colorPrimary"-->
+
+            <!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                app:srcCompat="@mipmap/ic_launcher" />-->
+
+<!--            <ImageButton-->
+<!--                android:id="@+id/level11"-->
+            <!--                 android:backgroundTint="@color/colorPrimary"-->
+
+            <!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                app:srcCompat="@mipmap/ic_launcher" />-->
+
+<!--            <ImageButton-->
+<!--                android:id="@+id/level12"-->
+            <!--                 android:backgroundTint="@color/colorPrimary"-->
+
+            <!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                app:srcCompat="@mipmap/ic_launcher" />-->
+            <ImageButton
+                android:id="@+id/lock9"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:backgroundTint="@color/colorPrimary"
+                app:srcCompat="@android:drawable/ic_lock_lock" />
+
+            <ImageButton
+                android:id="@+id/lock10"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:backgroundTint="@color/colorPrimary"
+                app:srcCompat="@android:drawable/ic_lock_lock" />
+
+            <ImageButton
+                android:id="@+id/lock11"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:backgroundTint="@color/colorPrimary"
+                app:srcCompat="@android:drawable/ic_lock_lock" />
+
+            <ImageButton
+                android:id="@+id/lock12"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:backgroundTint="@color/colorPrimary"
+                app:srcCompat="@android:drawable/ic_lock_lock" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+<!--            <ImageButton-->
+<!--                android:id="@+id/level13"-->
+            <!--                 android:backgroundTint="@color/colorPrimary"-->
+
+            <!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                app:srcCompat="@mipmap/ic_launcher" />-->
+
+<!--            <ImageButton-->
+<!--                android:id="@+id/level14"-->
+            <!--                 android:backgroundTint="@color/colorPrimary"-->
+
+            <!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                app:srcCompat="@mipmap/ic_launcher" />-->
+
+<!--            <ImageButton-->
+<!--                android:id="@+id/level15"-->
+            <!--                 android:backgroundTint="@color/colorPrimary"-->
+
+            <!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                app:srcCompat="@mipmap/ic_launcher" />-->
+
+<!--            <ImageButton-->
+<!--                android:id="@+id/level16"-->
+            <!--                 android:backgroundTint="@color/colorPrimary"-->
+
+            <!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                app:srcCompat="@mipmap/ic_launcher" />-->
+            <ImageButton
+                android:id="@+id/lock13"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:backgroundTint="@color/colorPrimary"
+                app:srcCompat="@android:drawable/ic_lock_lock" />
+
+            <ImageButton
+                android:id="@+id/lock14"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:backgroundTint="@color/colorPrimary"
+                app:srcCompat="@android:drawable/ic_lock_lock" />
+
+            <ImageButton
+                android:id="@+id/lock15"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:backgroundTint="@color/colorPrimary"
+                app:srcCompat="@android:drawable/ic_lock_lock" />
+
+            <ImageButton
+                android:id="@+id/lock16"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:backgroundTint="@color/colorPrimary"
+                app:srcCompat="@android:drawable/ic_lock_lock" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+<!--            <ImageButton-->
+<!--                android:id="@+id/level17"-->
+            <!--                 android:backgroundTint="@color/colorPrimary"-->
+
+            <!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                app:srcCompat="@mipmap/ic_launcher" />-->
+
+<!--            <ImageButton-->
+<!--                android:id="@+id/level18"-->
+            <!--                 android:backgroundTint="@color/colorPrimary"-->
+
+            <!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                app:srcCompat="@mipmap/ic_launcher" />-->
+
+<!--            <ImageButton-->
+<!--                android:id="@+id/level19"-->
+            <!--                 android:backgroundTint="@color/colorPrimary"-->
+
+            <!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                app:srcCompat="@mipmap/ic_launcher" />-->
+
+<!--            <ImageButton-->
+<!--                android:id="@+id/level20"-->
+            <!--                 android:backgroundTint="@color/colorPrimary"-->
+
+            <!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                app:srcCompat="@mipmap/ic_launcher" />-->
+            <ImageButton
+                android:id="@+id/lock17"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:backgroundTint="@color/colorPrimary"
+                app:srcCompat="@android:drawable/ic_lock_lock" />
+
+            <ImageButton
+                android:id="@+id/lock18"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:backgroundTint="@color/colorPrimary"
+                app:srcCompat="@android:drawable/ic_lock_lock" />
+
+            <ImageButton
+                android:id="@+id/lock19"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:backgroundTint="@color/colorPrimary"
+                app:srcCompat="@android:drawable/ic_lock_lock" />
+
+            <ImageButton
+                android:id="@+id/lock20"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:backgroundTint="@color/colorPrimary"
+                app:srcCompat="@android:drawable/ic_lock_lock" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"
+        android:text="SELECT A LEVEL"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
